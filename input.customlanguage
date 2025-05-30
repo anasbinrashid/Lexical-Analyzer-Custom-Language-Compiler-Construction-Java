@@ -1,0 +1,43 @@
+
+int counter = 100;             
+decimal value = 123.45678;      
+bool flag = 7;               
+char letter = 'a';   
+           
+int main()
+{
+	int sum = counter + 50;         
+	int diff = counter - 30;       
+	decimal prod = value * 2;       
+	decimal quot = value / 2;       
+	int modResult = counter % 3;    
+	int powerint = 2^3;             
+	decimal powerDec = value^2;     
+  	 int    spaced    =     42   ;
+
+	/*
+   	 This is a multi-line comment.
+    	 It includes extra spaces, blank lines, and even symbols.
+    
+   	 Make sure the lexer properly ignores all of this.
+	*/
+
+	if (counter > 50) {
+    		int localvar = counter + 10;
+    		write("Local variable value: " + localvar);
+    		// in if
+    		if (flag == true && flag == false) {
+        		decimal nestedval = 0.00001;   
+        		write("Nested local decimal: " + nestedval);
+    		}
+	}
+
+	int Invalid = 5;  
+	bool 12re = 3;
+
+	int user_input = read("Enter a number: ");
+	write("You entered: " + userinput);
+
+	string anas = "cc assignment";
+}
+
